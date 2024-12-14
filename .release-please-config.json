@@ -1,7 +1,6 @@
 {
   "release-type": "simple",
   "include-component-in-tag": true,
-  "tag-prefix": "v",
   "packages": {
     "action1": {
       "path": "action1",
