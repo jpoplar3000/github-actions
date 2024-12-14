@@ -3,10 +3,7 @@ name: Release Please
 on:
   push:
     branches:
-      - main # Default branch
-  pull_request:
-    branches:
-      - main # Optional, handle PRs to main
+      - main
 
 permissions:
   contents: write
@@ -15,12 +12,12 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Run Release Please
-        uses: google-github-actions/release-please-action@v4
+        uses: googleapis/release-please-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          manifest-file: release-please-config.json

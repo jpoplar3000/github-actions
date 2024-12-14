@@ -1,4 +1,4 @@
-name: 'Action 1'
+name: 'Action 2'
 description: 'A sample GitHub Action for demonstration'
 inputs:
   example-input:
