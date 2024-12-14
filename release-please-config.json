@@ -1,5 +1,6 @@
 {
   "include-component-in-tag": true,
+  "release-type": "simple",
   "packages": {
     "action1": {
       "path": "action1",
