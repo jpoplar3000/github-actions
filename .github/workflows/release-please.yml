@@ -19,6 +19,7 @@ jobs:
       - name: Run Release Please
         uses: google-github-actions/release-please-action@v3
         with:
+          release-type: generic
           token: ${{ secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
