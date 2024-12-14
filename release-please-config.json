@@ -1,5 +1,5 @@
 {
-  "release-type": "simple",
+  "release-type": "generic",
   "include-component-in-tag": true,
   "tag-prefix": "v",
   "packages": {
